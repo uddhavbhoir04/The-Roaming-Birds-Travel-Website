@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <title>Form</title>
+    <style>
+      *{
+        font-family: 'Mukta', sans-serif;
+      }
+      body {
+        background-image: url("images/bgwp.jpg");
+        background-size: cover;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+        height: 500px;
+        background-image: url("images/bgwp1.avif");
+        margin: 100px auto;
+      }
+      h1 {
+        color: white;
+        margin: 30px auto;
+      }
+      .user {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px;
+        color: white;
+     
+      }
+      .pass {
+        display: flex;
+        justify-content: center;
+        margin: 5px 0px;
+        color: white;
+      }
+      input {
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid rgb(136, 79, 227);
+        color: white;
+
+      }
+    
+      .fpass{
+        margin: 10px 130px 0px 20px;
+      }
+.backup{
+  color: azure;
+  font-size: 15px;
+}
+.btn {
+  width: 252px;
+padding: 1px;
+margin: 22px auto;
+height: 45px;
+font-weight: bolder;
+border-radius: 14px;
+
+      }
+.createacc{
+  color: white;
+margin: 0px auto;
+font-size: 15px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h1>LOGIN PAGE</h1>
+
+      <div class="user">
+        <label for="">USERNAME:</label> <input type="text" />
+      </div>
+      <div class="pass">
+        <label for="">PASSWORD:</label> <input type="password" />
+      </div>
+      <div class="backup"><span class="fpass">Forgot Password?</span>
+      <input type="checkbox" name="" id="check">Remember me</div>
+      <button class="btn">LOGIN</button>
+      <p class="createacc">New here? Create an Account</p>
+    </div>
+  </body>
+</html>
